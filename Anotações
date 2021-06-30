@@ -1,0 +1,7 @@
+sass --watch caminho_scss:caminho_css --Opt1 --Opt2
+
+--Opt1 = no-source-map 
+--Opt2 = --style compressed/nested/expanded/compact
+
+Ex:
+sass --watch caminho_scss:caminho_css --no-source-map --compressed
