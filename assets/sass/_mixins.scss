@@ -1,0 +1,6 @@
+@mixin textUp($up) {
+  transform: translateY($up);
+  -webkit-transform: translateY($up);
+  -moz-transform: translateY($up);
+  -ms-transform: translateY($up);
+}

@@ -1,0 +1,72 @@
+@import "reset";
+@import "variables";
+@import "propriedades";
+@import "if&For";
+
+body {
+  background-color: $cor4;
+}
+
+.line {
+  width: 100%;
+}
+
+.column {
+  width: 100;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+}
+
+.msg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.msg-sucesso {
+  @extend %fundamento-msg;
+  background-color: $verdeClaro;
+  color: $verdeEscuro;
+}
+
+.msg-erro {
+  @extend %fundamento-msg;
+  background-color: $vermelhoClaro;
+  color: $vermelhoEscuro;
+}
+
+.msg-alerta {
+  @extend %fundamento-msg;
+  background-color: $amareloClaro;
+  color: $amareloEscuro;
+}
+
+.msg-info {
+  @extend %fundamento-msg;
+  background-color: $aquamarineClaro;
+  color: $aquamarineEscuro;
+}
+
+.item-simples {
+  @extend %item;
+  background-color: $pink;
+  width: $item100px;
+}
+
+.item-duplo {
+  @extend %item;
+  background-color: $roxo;
+  width: $item100px * 2;
+}
+
+.item-triplo {
+  @extend %item;
+  background-color: $azul;
+  width: $item100px * 3;
+}
+
+.item-metade {
+  @extend %item;
+  background-color: $verde;
+  width: $item100px / 2;
+}

@@ -1,0 +1,9 @@
+@for $i from 1 through 10 {
+  .item-#{$i} {
+    @extend %item-padrao;
+
+    @if $i <= 3 {
+      @extend %texto-negrito;
+    }
+  }
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.msg-info,
+.msg-alerta,
+.msg-erro,
+.msg-sucesso {
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.msg-info p,
+.msg-alerta p,
+.msg-erro p,
+.msg-sucesso p {
+  font-size: inherit;
+}
+.msg-info .material-icons,
+.msg-alerta .material-icons,
+.msg-erro .material-icons,
+.msg-sucesso .material-icons {
+  position: initial !important;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.msg-info .material-icons:hover,
+.msg-alerta .material-icons:hover,
+.msg-erro .material-icons:hover,
+.msg-sucesso .material-icons:hover {
+  border-color: inherit;
+}
+.item-metade,
+.item-triplo,
+.item-duplo,
+.item-simples {
+  height: 4rem;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+}
+.item-metade:hover,
+.item-triplo:hover,
+.item-duplo:hover,
+.item-simples:hover {
+  width: 100%;
+}
+.item-10,
+.item-9,
+.item-8,
+.item-7,
+.item-6,
+.item-5,
+.item-4,
+.item-3,
+.item-2,
+.item-1 {
+  font-size: 1.1rem;
+  border: 1px solid #f3f3f3;
+  padding: 0.5rem;
+  margin: 0.4rem 0;
+  border-radius: 4px;
+  transition: all 100ms ease-in-out;
+  cursor: pointer;
+}
+.item-10:hover,
+.item-9:hover,
+.item-8:hover,
+.item-7:hover,
+.item-6:hover,
+.item-5:hover,
+.item-4:hover,
+.item-3:hover,
+.item-2:hover,
+.item-1:hover {
+  background-color: #f3f3f3;
+}
+.item-3,
+.item-2,
+.item-1 {
+  font-weight: bold;
+}
+body {
+  background-color: #f3f3f3;
+}
+.line {
+  width: 100%;
+}
+.column {
+  width: 100;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+}
+.msg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.msg-sucesso {
+  background-color: #afa;
+  color: #267526;
+}
+.msg-erro {
+  background-color: #ffadad;
+  color: #752626;
+}
+.msg-alerta {
+  background-color: #fdf7a3;
+  color: #757026;
+}
+.msg-info {
+  background-color: #9bfddd;
+  color: #3d9e7e;
+}
+.item-simples {
+  background-color: #ff1493;
+  width: 100px;
+}
+.item-duplo {
+  background-color: #639;
+  width: 200px;
+}
+.item-triplo {
+  background-color: #1f85b4;
+  width: 300px;
+}
+.item-metade {
+  background-color: #1fb41f;
+  width: 50px;
+}
